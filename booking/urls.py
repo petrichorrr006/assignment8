@@ -2,6 +2,11 @@ from django.urls import path
 from .views import login_view
 from .views import register_view
 from .views import logout_view
+from .views import verify_phone
+from .views import resend_otp
+from .views import book_slot
+from .views import my_appointments
+from .views import my_schedule
 
 from .views import (
     home,
